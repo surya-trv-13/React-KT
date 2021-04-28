@@ -27,7 +27,7 @@ class ClassComponent extends React.Component {
     // RAM = "Surya";
     data = "Surya";
     // console.log(RAM);
-    const v3 = this.check();
+    // const v3 = this.check();
     return (
       <h1>
         This is Class Component {data} {data2}
