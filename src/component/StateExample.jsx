@@ -4,7 +4,8 @@ class StateExample extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: 0
+      data: 0,
+      count: 0
     };
   }
   // state = {

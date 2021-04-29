@@ -9,6 +9,7 @@ class LifeCycleExample extends Component {
     };
   }
 
+  // Only Once
   componentWillMount = () => {
     console.log("Will Mount");
   };
@@ -20,6 +21,7 @@ class LifeCycleExample extends Component {
     });
   };
 
+  // Multiple times
   componentWillUpdate = (props, state) => {
     console.log("Will Update");
   };
@@ -32,6 +34,7 @@ class LifeCycleExample extends Component {
 
   render() {
     console.log("Render");
+    const { data, data1 } = this.props;
     return <h1>Lifecycle</h1>;
   }
 }
